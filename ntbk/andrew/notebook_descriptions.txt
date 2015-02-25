@@ -1,0 +1,11 @@
+This is a general description of some pre-existing ipython notebooks from old analyses run with Andrew's team. They are meant to be a guide explaining the idea behind each analysis.
+
+--------
+
+1.  Blanket_PO_Analysis_Invoices.ipynb:  This helps us find “blanket PO’s” by using invoice data.  A blanket PO is a lump of money that a department opens up with a supplier.  The department then buys from the supplier, referencing the blanket PO for each order.  The supplier then invoices by referencing the PO, which allows UC to pay the bill.  We used some filtering to find blankets and it worked well enough.  We toyed with Logistic Regression, but that was just because it was a cool thing to do.
+
+2.  Catalog Analysis General Actual Use.ipynb:  This is used to analyze the pricing that goes into BearBuy.  We compare all proposed pricing to existing pricing, then scale the difference by our purchase history.  This results in a “naïve forecast” of the impact of the new pricing on campus expenditures.
+
+3.  IT Maintenance Report – Data Extraction – Monthly.ipynb:  This attempts to extract software and hardware out of the spend.  It is a little manual in nature, but it seemed to improve on the system in place before.  I don’t fully understand it, it was coded by someone else.
+
+4.  USF Clustering Example.ipynb: This is our successful clustering analysis.  We filter down to a commodity or group of suppliers.  Then we develop features that seek to explain differences in the departments.  Then we cluster them.  It seems to work pretty well and provides intuitive clusters that have meaning to subject matter experts.
