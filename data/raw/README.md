@@ -1,0 +1,1 @@
+A folder for raw datasets. The files themselves are not in git. They should be created with the data creation scripts.
