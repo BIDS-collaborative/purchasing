@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 
 
 # In[5]:
-
+# Define data paths
 full_data_path = '../../data/raw/UCB.csv'
 data_path = '/Users/choldgraf/Google Drive/Projects/BIDS/Sourcing/data/UCB_cleaned.csv'
 dept_path = '/Users/choldgraf/Google Drive/Projects/BIDS/Sourcing/data/BerkeleyPO_Department.csv'
