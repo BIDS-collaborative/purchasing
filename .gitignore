@@ -1,6 +1,10 @@
 # Ignore CSV
 *.csv
 
+# Ignore HDF5
+*.hdf
+*.h5
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
