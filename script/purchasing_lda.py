@@ -42,7 +42,9 @@ def main():
 
     # Stop words
     stop_words = stopwords.words('english') + \
-                 [u'ea', u'per', u'item', u'description', u'quote', u'pk', u'pack']
+                 [u'ea', u'per', u'item', u'description', u'quote', u'pk', u'pack',
+                  'give', 'something', 'inc', 'corporation', 'quantity', 'back',
+                  'products', 'co', 'officemax', 'unit', 'corp', 'llc', 'new']
 
     # Remove stop words, numbers, single chars
     tokenized_pd_clean = []
