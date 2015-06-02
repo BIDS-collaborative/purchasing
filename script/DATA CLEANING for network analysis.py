@@ -11,7 +11,7 @@ create a dictionary from
 the data and use it to assign department names to the original dataset with
 the network connections
 """
-data = pd.read_csv('/Users/dariushbozorgmehri/Documents/My Work/Berkeley Classes Spring 2015/BIDS/data/modified_data_4_15/departmentDataV3_ALL_DATA_CLEAN.csv', low_memory=False)
+data = pd.read_csv('.../departmentDataV3_ALL_DATA_CLEAN.csv', low_memory=False)
 
 
 """
@@ -61,7 +61,7 @@ for i in range(1,len(data5Number)):
 """
 Create dataframe from cleaned dataset (dataset cleaned by Chris Holdgraf
 """
-dataOrig = pd.read_csv('/Users/dariushbozorgmehri/Documents/My Work/Berkeley Classes Spring 2015/BIDS/data/UCB_dept_merge.csv', low_memory=False)
+dataOrig = pd.read_csv('.../UCB_dept_merge.csv', low_memory=False)
 
 
 """
