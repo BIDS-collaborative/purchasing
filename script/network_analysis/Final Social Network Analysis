@@ -10,8 +10,8 @@ from networkx.algorithms import bipartite
 
 
 # In[39]:
-
-df = pd.read_csv('/Users/dariushbozorgmehri/Documents/My Work/Berkeley Classes Spring 2015/BIDS/data/temp.csv')
+# this file is on google drive
+df = pd.read_csv('/DATA CLEANED SOC NET ANALYSIS.csv')
 
 
 # In[53]:
@@ -103,7 +103,7 @@ class graphData:
         nx.draw_networkx_edges(self.G,pos,edgelist=self.edgeList)
 
         #plt.show()
-        plt.savefig('/Users/dariushbozorgmehri/Documents/My Work/Berkeley Classes Spring 2015/BIDS/data/PICS/NonCatPics/test.png')
+        plt.savefig('./pic.png')
 
     def calc(self):
         bottom_nodes, top_nodes = bipartite.sets(self.G)
@@ -127,4 +127,4 @@ dataGraphed.draw()
 dataGraphed.calc()
 
 
-# In[ ]:
+
